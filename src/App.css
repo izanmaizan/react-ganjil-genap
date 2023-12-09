@@ -2,37 +2,53 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  width: 80%;
+  padding: 8px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff; /* Warna biru */
   color: white;
+  border: none;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3; /* Warna biru yang lebih gelap pada hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  margin: 20px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  margin: 8px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
 }
